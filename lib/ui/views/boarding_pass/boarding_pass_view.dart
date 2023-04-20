@@ -215,7 +215,9 @@ class BoardingPassView extends StackedView<BoardingPassViewModel> {
                   style: ElevatedButton.styleFrom(
                       backgroundColor: kcVeryLightGrey,
                       foregroundColor: kcPrimaryColor),
-                  onPressed: () {},
+                  onPressed: () {
+                    viewModel.home();
+                  },
                   child: Text("Book another flight"),
                 ),
               ),
