@@ -48,4 +48,8 @@ class HomeViewModel extends BaseViewModel {
       default:
     }
   }
+
+  void searchResults() {
+    _navigationService.navigateToSearchResultView();
+  }
 }

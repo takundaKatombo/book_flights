@@ -34,6 +34,9 @@ class BookingsView extends StackedView<BookingsViewModel> {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Card(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            ),
             child: Column(
               children: [
                 verticalSpaceSmall,

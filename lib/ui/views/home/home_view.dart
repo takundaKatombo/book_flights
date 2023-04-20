@@ -246,7 +246,9 @@ class HomeView extends StackedView<HomeViewModel> {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                   backgroundColor: kcPrimaryColor),
-                              onPressed: () {},
+                              onPressed: () {
+                                viewModel.searchResults();
+                              },
                               child: Text("Search"),
                             ),
                           ),

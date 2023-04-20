@@ -37,6 +37,7 @@ dependencies:
   
   stacked: ^3.2.0
   stacked_services: ^1.0.0
+  barcode_widget: ^2.0.3
 
 dev_dependencies:
   flutter_test:
