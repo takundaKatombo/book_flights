@@ -13,7 +13,7 @@ class ProfileView extends StackedView<ProfileViewModel> {
     Widget? child,
   ) {
     return Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       body: Container(
         padding: const EdgeInsets.only(left: 25.0, right: 25.0),
       ),
